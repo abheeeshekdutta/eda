@@ -16,8 +16,21 @@ if file:
         if st.button("Generate report"):
             df = pd.read_excel(file, sheet_name=sheet_choice)
             profile_report = ProfileReport(df)
-            st_profile_report(profile_report)
+            st.download_button(
+                "Download report as HTML file",
+                data=profile_report.to_html(),
+                file_name="report.html",
+            )
+            st_profile_report(profile_report, navbar=True, height=1300)
+            # profile_report.to_file("report.html")
+
     else:
         df = pd.read_csv(file)
-        profile_report = ProfileReport(df)
+        profile_report = ProfileReport(df, explorative=True)
+        st.download_button(
+            "Download report as HTML file",
+            data=profile_report.to_html(),
+            file_name="report.html",
+        )
         st_profile_report(profile_report, navbar=True, height=1300)
+        # profile_report.to_file("report.html")
