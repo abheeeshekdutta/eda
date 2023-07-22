@@ -15,11 +15,9 @@ if file:
         )
         if st.button("Generate report"):
             df = pd.read_excel(file, sheet_name=sheet_choice)
-            df.to_excel("./data/sourcedata.xlsx", index=None)
             profile_report = ProfileReport(df)
             st_profile_report(profile_report)
     else:
         df = pd.read_csv(file)
-        df.to_csv("./data/sourcedata.csv", index=None)
         profile_report = ProfileReport(df)
         st_profile_report(profile_report, navbar=True, height=1300)
