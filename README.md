@@ -8,21 +8,21 @@ As an initial step of the data science or analytics process, we are often requir
 
 ### ﹖ How to run the application
 
-Clone repostiory
+Clone repostiory:
 
-```git clone https://github.com/abheeeshekdutta/eda.git```
+>```git clone https://github.com/abheeeshekdutta/eda.git```
 
-Change to the correct directory
+Change to the correct directory:
 
-```cd auto-eda-app```
+>```cd auto-eda-app```
 
-Install dependencies
+Install dependencies:
 
-```pip install requirements.txt```
+>```pip install requirements.txt```
 
-Run the Streamlit application
+Run the Streamlit application:
 
-```streamlit run app.py```
+>```streamlit run app.py```
 
 After running the above commands, the application will be available at http://localhost:8501
 
