@@ -6,9 +6,25 @@
 
 As an initial step of the data science or analytics process, we are often required to build a basic understanding of the dataset that we're working with. Although there are many visualization tools as extensive as Tableau or Microsoft PowerBI, and as code-oritented as Python packages like matplotlib or seaborn, users often face a learning curve or varying degree. Users also do not have immediate access to a simple tool where they may upload their dataset files and a complete exploratory data analysis report may be generated. My application aims to tackle both of these issues through an easy interface.
 
-### 🔗 Application link
+### ﹖ How to run the application
 
-https://eda-h26ppdyerhv.streamlit.app
+Clone repostiory
+
+```git clone https://github.com/abheeeshekdutta/eda.git```
+
+Change to the correct directory
+
+```cd auto-eda-app```
+
+Install dependencies
+
+```pip install requirements.txt```
+
+Run the Streamlit application
+
+```streamlit run app.py```
+
+After running the above commands, the application will be available at http://localhost:8501
 
 ### 🛠️ Tools Used
 
