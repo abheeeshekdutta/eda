@@ -8,7 +8,7 @@ As an initial step of the data science or analytics process, we are often requir
 
 ### ﹖ How to run the application
 
-Clone repostiory:
+Clone repository:
 
 >```git clone https://github.com/abheeeshekdutta/eda.git```
 
