@@ -20,6 +20,10 @@ https://eda-h26ppdyerhv.streamlit.app
 
 ![Custom Dataset](assets/custom_dataset.png)
 
+<br><hr>
+
 ![Custom Dataset Report](assets/custom_dataset_report.png)
+
+<br><hr>
 
 ![Builtin Dataset](assets/builtin_dataset.png)
